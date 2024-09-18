@@ -1,8 +1,25 @@
-# lead_generation_software
+# LeadGenPro   OR   lead_generation_software
 
 ## Introduction
 
-This Python-based lead generation software (v1.2) is designed to automate the process of finding potential leads by crawling websites using the Bing Search API and extracting contact information. It features a user-friendly GUI built with Tkinter for efficient interaction.
+Getting data which can impact on your bussiness without any effort is very hard to find. here comes our Lead Gen software.
+Lead generation is the lifeblood of any business. With the digital landscape constantly evolving, businesses must adapt their lead-generation strategies to keep pace with trends, consumer behavior, and technology.
+Lead Generation Software OR LeadGenPro is the right tool to get data without any effort.
+- **You just give a keyword and it will give you potential bussiness contact information in csv file. Its this simple, can't beleive.** 
+- **This Python-based lead generation software (v1.2) is designed to automate the process of finding potential leads by crawling websites using the Bing Search API and extracting contact information.**
+- **It gets url list first then goes to every url in the list and extract contact information. like Company name, Phone, Email, Address etc.**
+- **It features a user-friendly GUI built with Tkinter for efficient interaction.**
+
+## Key Features
+
+- <b>Keyword Targeting:</b> Specify relevant keywords and software will show urls against those keywords.
+- <b>Filter Negative Words:</b> Exclude irrelevant websites using negative keywords.
+- <b>Bing Search Integration:</b> Leverage the Bing Search API for efficient crawling. Note that Google API doesnt work good as Bing API.
+- <b>Pagination:</b> Navigate through large result sets effortlessly. It shows 50 urls per page and designed to get 200 urls max. If the search button is pressed again it will give next 200 results.
+- <b>Progress Bar:</b> Monitor the crawling progress in real time. It shows progress in terminal also when running.
+- <b>CSV Export:</b> Export extracted contact data in a structured CSV format.
+- <b>Error Handling:</b> Gracefully handle potential errors during crawling and data extraction.
+  
 
 ## Images:
 ![Lead Generation Software](https://github.com/SafeerAbbas624/lead_generation_software/blob/main/Screenshot1.JPG)
@@ -17,16 +34,7 @@ This Python-based lead generation software (v1.2) is designed to automate the pr
 
 **This is the csv file snippet to show the contact information scraped.**
 
-## Key Features
 
-- <b>Keyword Targeting:</b> Specify relevant keywords and software will show urls against those keywords.
-- <b>Filter Negative Words:</b> Exclude irrelevant websites using negative keywords.
-- <b>Bing Search Integration:</b> Leverage the Bing Search API for efficient crawling. Note that Google API doesnt work good as Bing API.
-- <b>Pagination:</b> Navigate through large result sets effortlessly. It shows 50 urls per page and designed to get 200 urls max. If the search button is pressed again it will give next 200 results.
-- <b>Progress Bar:</b> Monitor the crawling progress in real time. It shows progress in terminal also when running.
-- <b>CSV Export:</b> Export extracted contact data in a structured CSV format.
-- <b>Error Handling:</b> Gracefully handle potential errors during crawling and data extraction.
-  
 ## Installation
 
 **1. Prerequisites:**
