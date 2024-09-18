@@ -1,0 +1,10 @@
+tkinter
+ttk
+requests
+bs4
+nltk
+fake_useragent
+urllib.parse
+re
+csv
+output
